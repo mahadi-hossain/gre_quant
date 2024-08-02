@@ -183,7 +183,7 @@ The distribution of test scores you’ve described is **bimodal**. Here’s why:
    - **Spread**: Scores of 15, 16, 20, and 75 show fewer students compared to the two peaks, contributing to the bimodal nature.
 
 The distribution's shape suggests that there are two different groups or clusters of students scoring at different levels.
-
+<pre>
 students
 |
 |40
@@ -193,6 +193,7 @@ students
 |20
 |10
 ____15___16__20__30__40__75___  scores 
+</pre>
 
 ### To count 80 percentile of score
 To find the 80th percentile of scores from your data, follow these steps:
