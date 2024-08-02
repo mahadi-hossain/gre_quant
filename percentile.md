@@ -1,3 +1,21 @@
+To tackle percentile questions on the GRE or GMAT, you'll need to understand a few key concepts and assumptions:
+
+1. **Percentile Definition**: A percentile rank indicates the percentage of scores that fall below a given score. For example, if you’re in the 90th percentile, you scored better than 90% of the test-takers.
+
+2. **Percentile and Raw Scores**: Percentiles are often used to describe how a score compares to others in a distribution. However, the actual percentile rank depends on the distribution of scores for that test.
+
+3. **Cumulative Distribution**: To find a percentile rank, you need to know the cumulative distribution of scores. This is usually provided by test reports or score distribution charts.
+
+4. **Interpreting Percentiles**: Higher percentiles mean better performance relative to others. For example, a score in the 95th percentile means you performed better than 95% of other test-takers.
+
+5. **Percentile Ranges**: The GRE and GMAT often provide percentiles for specific score ranges. Understand that these percentiles can vary year-to-year based on the test-taker pool.
+
+6. **Score vs. Percentile**: There’s often a score to percentile conversion chart available for the GRE and GMAT, showing how raw scores translate into percentiles.
+
+7. **Estimation and Comparison**: Sometimes you may need to estimate or compare percentiles. This involves understanding how changes in score affect percentiles, which can be approached through approximation or using provided conversion tables.
+
+To be effective with percentile math, practice interpreting and calculating percentiles using these rules and assumptions, and familiarize yourself with how they are used in the context of GRE and GMAT scores.
+
 **Key Concept**
 Percentiles in statistics.
 
