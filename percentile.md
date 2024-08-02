@@ -9,13 +9,13 @@ A percentile is a measure used in statistics that indicates the relative standin
 1. **Percentile Calculation:**
    - To find the percentile rank of a score in a dataset, you need to sort the data in ascending order.
    - The formula to determine the position of a specific percentile (P) in a dataset with \( N \) values is:
-     \[
+     $`
      \text{Position} = P \times (N + 1)
-     \]
+     `$
    - For instance, to find the 80th percentile in a dataset with 300 values:
-     \[
+     $`
      \text{Position} = 0.80 \times (300 + 1) = 0.80 \times 301 = 240.8
-     \]
+     `$
    - Since the position is a decimal, you typically interpolate between the 240th and 241st values.
 
 2. **Nature of Percentiles:**
@@ -66,9 +66,9 @@ Consider a data set of 300 test scores. To find how many scores can fall within 
 
 2. **Calculate the Position:**
    - The position of the 80th percentile in a data set with 300 values is:
-     \[
+     $`
      \text{Position} = 0.80 \times (300 + 1) = 0.80 \times 301 = 240.8
-     \]
+     `$
    - This indicates the 240.8th value in the sorted list, which is between the 240th and 241st scores.
 
 3. **Consider Repeated Values:**
