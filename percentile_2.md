@@ -9,9 +9,9 @@ Percentiles are a way to understand the relative standing of a value within a da
 
 *Step 2: Determine the Rank for the Percentile*
 - To find the percentile rank (PR) for a specific percentile (P), use the formula:
-  \[
+  $`
   PR = \left(\frac{P}{100}\right) \times (N + 1)
-  \]
+  `$
   where \( P \) is the desired percentile (e.g., 25 for the 25th percentile) and \( N \) is the total number of data points.
 
 *Step 3: Identify the Position*
@@ -20,9 +20,9 @@ Percentiles are a way to understand the relative standing of a value within a da
 
 *Step 4: Interpolate if Necessary*
 - For non-integer ranks, interpolate between the two closest data points. If the rank is 4.5, interpolate between the 4th and 5th values:
-  \[
+  $`
   P_k = X_L + (R - L) \times (X_H - X_L)
-  \]
+  `$
   where \( P_k \) is the percentile value, \( X_L \) is the lower rank value, \( X_H \) is the higher rank value, \( R \) is the calculated rank, and \( L \) is the lower rank position.
 
 **Example Calculation**
@@ -32,14 +32,14 @@ Consider a dataset: 3, 7, 8, 12, 13, 14, 18, 21, 23, 27
 - To find the 25th percentile:
   1. Order the data (already ordered in this case).
   2. Calculate the rank:
-     \[
+     $`
      PR = \left(\frac{25}{100}\right) \times (10 + 1) = 2.75
-     \]
+     `$
   3. The rank 2.75 is not an integer, so interpolate between the 2nd (7) and 3rd (8) values.
   4. Interpolate:
-     \[
+     $`
      P_{25} = 7 + (2.75 - 2) \times (8 - 7) = 7 + 0.75 \times 1 = 7.75
-     \]
+     `$
 
 Thus, the 25th percentile is 7.75.
 
@@ -192,9 +192,9 @@ A percentile group is a range of data points that represents a specific percenta
 1. **Percentile Calculation**:
    - To find a specific percentile in a dataset, sort the data in ascending order.
    - Calculate the position of the percentile using the formula:
-     \[
+     $`
      \text{Position} = \left(\frac{P}{100}\right) \times (N + 1)
-     \]
+     `$
      where \( P \) is the desired percentile and \( N \) is the number of data points.
 
 2. **Percentile Group**:
